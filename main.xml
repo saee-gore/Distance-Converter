@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical" 
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+
+   <Button
+         android:id="@+id/outputkm"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Miles -> Kilometers" />
+   <EditText
+      android:id="@+id/mileinputfield" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" 
+      android:text="Input a mile value:" />
+
+   <TextView
+      android:id="@+id/resultkm" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" 
+      android:text="The corresponding kilometer value is:" />
+
+   <Button
+         android:id="@+id/outputmiles"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Kilometers -> Miles" />
+   <EditText
+         android:id="@+id/kminputfield"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Input a kilometer value:" />
+
+   <TextView
+         android:id="@+id/resultmile"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="The corresponding mile value is:" />
+</LinearLayout>
